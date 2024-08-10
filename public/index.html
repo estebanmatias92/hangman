@@ -9,8 +9,12 @@
 <body>
   <h1>Hangman Game</h1>
   <div id="game">
+    <form id="startForm">
+      <input type="text" id="player" placeholder="Your name" required>
+      <button type="submit">Start Game</button>
+    </form>
     <p id="currentWord"></p>
-    <form id="guessForm">
+    <form id="guessForm" style="display:none;">
       <input type="text" id="guess" placeholder="Your guess" required>
       <button type="submit">Submit Guess</button>
     </form>
@@ -19,3 +23,4 @@
   </div>
 </body>
 </html>
+

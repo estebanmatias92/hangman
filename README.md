@@ -57,7 +57,7 @@ Gracias a esto, los resultados son actualizados al instante y reflejan la cantid
 
 - Una vez creada la **DB** con el fichero _**.sql**_.
 - Entrar en esta carpeta desde la terminal.
-- Instalar las dependencias NodeJS con _`npm install`_ (las dependencias estan definidas en package.json)... toma un tiempo.
+- Instalar las dependencias NodeJS con _`npm install`_ (las dependencias estan definidas en _**./package.json**_)... toma un tiempo.
 - Una vez terminado, arrancar el server NodeJS de nuestra app con el comando _`npm start`_.
 
 Esta aplicacion, primero intentara conectarse a la base de datos correctamente y luego aguardara comunicacion via **HTTP** en la ruta [localhost:3000](localhost:3000).
