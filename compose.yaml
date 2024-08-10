@@ -1,0 +1,14 @@
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: hangman
+    ports:
+      - "3308:3306"
+    volumes:
+      #- ./db/init.sql:/docker-entrypoint-initdb.d/init.sql # Info from the directory where secrets are stored
+      - db-data-ahorcado2:/var/lib/mysql
+
+volumes:
+  db-data-ahorcado2:

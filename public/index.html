@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman Game</title>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Hangman Game</h1>
+  <div id="game">
+    <p id="currentWord"></p>
+    <form id="guessForm">
+      <input type="text" id="guess" placeholder="Your guess" required>
+      <button type="submit">Submit Guess</button>
+    </form>
+    <p id="message"></p>
+    <p>Words guessed: <span id="guessedWords">0</span></p>
+  </div>
+</body>
+</html>
